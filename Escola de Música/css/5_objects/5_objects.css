@@ -1,0 +1,205 @@
+#navigation >ul >li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+   
+   
+}
+
+#navigation >ul >li >a{
+    text-decoration: none;
+    color: #d7ddcc;
+    padding: 0 15px;
+    line-height: 40px;
+    transition: all .2s ease-in-out;
+}
+#navigation >ul >li >a:hover{
+    background-color: rgb(90,70,230);
+    padding: 10px 15px;
+    border-left: 1px solid #8a378d;
+    border-right: 1px solid #8a378d;
+}
+
+.button{
+    width: 150px;
+    height: 40px;
+    border-radius: 23px;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #f4891f;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: bold;
+
+}
+
+.button > img{
+    height: 20px;
+    vertical-align: middle;
+}
+.button:hover{
+    background-color: #8a378d;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+
+}
+
+#picture{
+    opacity: 0.4;
+    margin-top: 10px;
+    z-index: -1;
+
+}
+#picture img{
+    width: 600px
+}
+
+#article{
+    margin-top: 100px;
+}
+#article h1{
+    width: 540x;
+    height: 120px;
+    font-size: 26px;
+    font-weight: bold;
+    color: lightblue;
+    text-align: center;
+    margin-left: 24px;
+
+  }
+
+  #article h2{
+        width: 540px;
+        height: 110px;
+        font-size: 26px;
+        font-weight: bold;
+        margin-top: -50px;
+        text-align: center;
+        color: #01F338;
+      
+  }
+
+  .send-message{
+    width: 313px;
+    height: 64px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px 0 rgba(26, 21, 21, 0.16);
+    -webkit-box-shadow: 6px 6px 6px 0 rgba(26, 21, 21, 0.16);
+    border: solid 1px #707070;
+    background-color: #ffffff;
+    margin-left: 111px;
+    text-align: center;
+    
+  }
+  .send-message i img{
+      padding-left: 15px;
+      position: relative;
+      top: 23px;
+  }
+  .send-message input{
+    top: 19px;
+    border: none;
+    position: relative;
+    margin-left: 12px;
+  }
+  #send-btn{
+    top: 23px;
+    position: relative;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  .modalDialog{
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 88888;
+      opacity: 0;
+      transition: opacity 400ms ease-in;
+      -webkit-transition: opacity 400ms ease-in;
+      -moz-transition: opacity 400ms ease-in;
+      pointer-events: none;
+  }
+  .modalDialog:target{
+      opacity: 1;
+      pointer-events: auto;
+  }
+  .body-modal{
+      background-color: #fff;
+      width: 500px;
+      height: 300px;
+      position: relative;
+      margin: 10% auto;
+      display: flex;
+      align-items: stretch;
+      text-align: center;
+  }
+  .gt-msg{
+      position: absolute;
+      top: 0;
+      left: 10px;
+      height: 300px;
+      z-index: -1;
+      opacity: .5;
+  }
+
+  .side-left{
+      width: 60%;
+      background-color: #4f5cce;
+      padding-top: 130px;
+      opacity: 0.9;
+  }
+  .icon-msg{
+      background-color: rgb(83, 10, 90);
+
+  }
+
+  .side-left h1{
+      font-size: 20px;
+      font-weight: bold;
+      color: rgb(3, 3, 3);
+  }
+
+  .side-rigth{
+      width: 40%;
+      padding-top: 130px;
+  }
+  .side-rigth p{
+      font-size: 16px;
+      font-weight: bold;
+
+  }
+  
+  .closeModal{
+      background-color: blueviolet;
+      color: #fff;
+      line-height: 25px;
+      position: absolute;
+      right: -12px;
+      text-align: center;
+      top: -10px;
+      width: 24px;
+      text-decoration: none;
+      -webkit-border-radius: 12px;
+      -moz-border-radius: 12px;
+      border-radius: 12px;
+      box-shadow: 1px 1px 3px #000;
+      -webkit-box-shadow: 1px 1px 3px #000;
+      -moz-box-shadow: 1px 1px 3px #000;
+  }
+
+  .closeModal::after{
+      content: "\d7";
+  }
+  .closeModal:hover{
+      background-color: slateblue;
+  }
+

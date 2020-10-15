@@ -1,0 +1,24 @@
+#bag{
+    background-color: royalblue;
+}
+#bag:hover{
+    background-color: #8a378d;
+}
+
+#send-btn:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 5px lightslategray;
+    -webkit-box-shadow: 3px 3px 5px lightslategray;
+}
+
+.menu-toggle img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    display: none;
+}
+.item-menu, .item-menu-login{
+    visibility: hidden;
+}
